@@ -1,9 +1,5 @@
 # Authentication_social_media
 
-# Foobar
-
-Foobar is a Python library for dealing with word pluralization.
-
 ## Installation
 
 Installing the required packages.
@@ -16,4 +12,11 @@ requirements.txt
 ```bash
 Django
 djangorestframework
+```
+
+## Implementation of the project
+
+> The first package that will be installed to run the project
+```bash
+    pip install django-allauth
 ```
