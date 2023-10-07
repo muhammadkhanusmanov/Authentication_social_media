@@ -10,3 +10,7 @@ Installing the required packages.
 
 ```bash
 pip install -r requirements.txt
+
+```requirements.txt
+Django
+djangorestframework
