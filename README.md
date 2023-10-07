@@ -16,5 +16,5 @@ djangorestframework
 
 ## Implementation of the project
 
-> Guide to additional installable packages and changes to `[setting.py]`(https://django-allauth.readthedocs.io/en/latest/installation/quickstart.html#post-installation) to implement the project
+> Guide to additional installable packages and changes to [setting.py](https://github.com/muhammadkhanusmanov/Authentication_social_media/blob/main/core/settings.py) to implement the project
 > * 
