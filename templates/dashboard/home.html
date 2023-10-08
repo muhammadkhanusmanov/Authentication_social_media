@@ -1,10 +1,38 @@
 {% extends 'account/base.html' %}
 
 {% block content %}
-    <div class="text-center">
-        <h2>Home</h2>
-        <p>Hello {{ user.first_name }}!</p>
-        <p>Your Username : {{ user }}</p>
-        <a class="btn btn-dark" href="{% url 'socialaccount_connections' %}">Settings</a>
+    <div class="container text-center">
+        <h2 class="display-4">Welcome Home</h2>
+        <p class="lead">Hello, {{ user.first_name }}!</p>
+        <p>Your Username: {{ user }}</p>
+        <a class="btn btn-primary btn-lg" href="{% url 'socialaccount_connections' %}">Go to Settings</a>
     </div>
+    <style>
+        /* Global CSS styles */
+        body {
+            background-color: #f0f0f0;
+            font-family: Arial, sans-serif;
+        }
+        /* Header style */
+        .display-4 {
+            color: #333;
+        }
+        /* Container style */
+        .container {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            margin-top: 20px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        }
+        /* Button style */
+        .btn-primary {
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+        }
+        .btn-primary:hover {
+            background-color: #0056b3;
+        }
+    </style>
 {% endblock %}
